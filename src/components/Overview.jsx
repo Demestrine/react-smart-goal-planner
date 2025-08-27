@@ -47,12 +47,12 @@ const Overview = ({ goals }) => {
         {/* Stat: Total saved amount */}
         <div className="stat">
           <h3>Total Saved</h3>
-          <p>${totalSaved.toLocaleString()}</p>
+          <p>Ksh{totalSaved.toLocaleString()}</p>
         </div>
         {/* Stat: Total target amount */}
         <div className="stat">
           <h3>Total Target</h3>
-          <p>${totalTarget.toLocaleString()}</p>
+          <p>Ksh{totalTarget.toLocaleString()}</p>
         </div>
         {/* Stat: Number of completed goals */}
         <div className="stat">

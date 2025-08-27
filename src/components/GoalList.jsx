@@ -45,9 +45,9 @@ const GoalList = ({ goals, deleteGoal, setSelectedGoal }) => {
               </div>
               <div className="goal-details">
                 <p>Category: {goal.category}</p>
-                <p>Target: ${goal.targetAmount.toLocaleString()}</p>
-                <p>Saved: ${goal.savedAmount.toLocaleString()}</p>
-                <p>Remaining: ${remaining.toLocaleString()}</p>
+                <p>Target: Ksh{goal.targetAmount.toLocaleString()}</p>
+                <p>Saved: Ksh{goal.savedAmount.toLocaleString()}</p>
+                <p>Remaining: Ksh{remaining.toLocaleString()}</p>
                 <p>Deadline: {new Date(goal.deadline).toLocaleDateString()}</p>
                 <p className={`status ${status.class}`}>{status.status}</p>
               </div>

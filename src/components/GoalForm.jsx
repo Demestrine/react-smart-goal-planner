@@ -67,7 +67,7 @@ const GoalForm = ({ addGoal, updateGoal, selectedGoal, setSelectedGoal }) => {
           />
         </div>
         <div className="form-group">
-          <label>Target Amount ($):</label>
+          <label>Target Amount (Ksh):</label>
           <input
             type="number"
             name="targetAmount"
