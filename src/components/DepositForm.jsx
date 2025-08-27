@@ -39,13 +39,13 @@ const DepositForm = ({ goals, makeDeposit }) => {
             <option value="">Select a goal</option>
             {goals.map(goal => (
               <option key={goal.id} value={goal.id}>
-                {goal.name} (${goal.savedAmount.toLocaleString()} / ${goal.targetAmount.toLocaleString()})
+                {goal.name} (Ksh{goal.savedAmount.toLocaleString()} / Ksh{goal.targetAmount.toLocaleString()})
               </option>
             ))}
           </select>
         </div>
         <div className="form-group">
-          <label>Amount ($):</label>
+          <label>Amount (Ksh):</label>
           <input
             type="number"
             name="amount"
